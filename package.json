@@ -1,0 +1,32 @@
+{
+  "name": "ctflevel3",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/techsyndicate/ctflevel3.git"
+  },
+  "author": "gamer-1478",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/techsyndicate/ctflevel3/issues"
+  },
+  "homepage": "https://github.com/techsyndicate/ctflevel3#readme",
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "cookie-parser": "^1.4.6",
+    "cookie-session": "^2.0.0",
+    "dotenv": "^16.3.1",
+    "ejs": "^3.1.9",
+    "express": "^4.18.2",
+    "jsonwebtoken": "^9.0.2",
+    "moment": "^2.29.4",
+    "mongoose": "^7.6.3",
+    "url": "^0.11.3"
+  }
+}
