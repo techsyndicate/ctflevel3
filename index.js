@@ -86,6 +86,8 @@ app.post('/login', async (req, res) => {
 app.get('/flag', forceDeserialise, async (req, res) => {
     if (req.user.email == "admin@admin.admin") {
         res.send(process.env.FLAG);
+    } else {
+        res.send("You are not admin");
     }
 })
 
